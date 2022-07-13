@@ -26,7 +26,12 @@ main {
   flex-flow: row nowrap;
 }
 
-#housemail{
+#housemail {
   display: flex;
   flex-flow: row nowrap;
+}
+
+#family {
+  display: flex;
+  flex-flow: column wrap;
 }
