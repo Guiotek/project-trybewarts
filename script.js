@@ -9,5 +9,18 @@ function verifyLogin(event) {
   }
 }
 
+function verifyAgreement() {
+  const checkAgreement = document.getElementById('agreement').checked;
+  const btnSubmit = document.getElementById('submit-btn');
+  if (checkAgreement === true) {
+    btnSubmit.disabled = false;
+  } else {
+    btnSubmit.disabled = true;
+  }
+}
+
 const buttonLogin = document.getElementById('buttonLogin');
 buttonLogin.addEventListener('click', verifyLogin);
+
+const checkAgreement = document.getElementById('agreement');
+checkAgreement.addEventListener('click', verifyAgreement);
