@@ -1,10 +1,38 @@
-.header {
+* {
+  margin:0;
+  padding: 0;
+  font-size: 100%;
+  box-sizing: border-box;
+  font-family: 'Open Sans',sans-serif;
+}
+
+header {
   display: flex;
   background-color: rgb(50, 167, 145);
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+}
+
+h1{
+  font-size: 30px;
+  color: white;
 }
 
 .trybewarts-login {
   display: flex;
+  justify-content: flex-end;
+}
+
+.trybewarts-login input {
+  width: 30%;
+  height: 30%;
+}
+
+.trybewarts-login button{
+  width: 30%;
+  height: 30%;
 }
 
 main {
@@ -39,4 +67,9 @@ main {
 #content {
   display: flex;
   flex-flow: column wrap;
+}
+
+.trybewarts-header-logo{
+  width: 30px;
+
 }
