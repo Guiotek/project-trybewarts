@@ -14,10 +14,14 @@ main {
 #evaluation-form {
   display: flex;
   width: 675px;
-  flex-direction: column;
+  flex-flow: column wrap;
 }
 
 #trybewarts-forms-logo {
   height: 500px;
 }
 
+#fullname {
+  display: flex;
+  flex-flow: row nowrap;
+}
