@@ -145,5 +145,16 @@ h2 {
 }
 
 #house{
-  width: 200px;
+  width: 202px;
+}
+
+#aa{
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+#bb{
+  display: flex;
+  flex-direction: column;
 }
