@@ -70,10 +70,6 @@ h2 {
 #trybewarts-forms-logo {
   height: 450px;
   width: 450px;
-  display: flex;
-  flex-flow: row nowrap;
-  align-items: flex-end;
-  margin: auto;
 }
 
 #fullname {
