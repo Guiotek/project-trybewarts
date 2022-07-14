@@ -50,6 +50,8 @@ h1 {
 main {
   display: flex;
   background-color: #EFEFEF;
+  flex-flow: row nowrap;
+  width: 100%;
 }
 
 #evaluation-form {
@@ -67,7 +69,12 @@ h2 {
 }
 
 #trybewarts-forms-logo {
-  height: 500px;
+  height: 450px;
+  width:450px ;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: flex-end;
+  margin:auto;
 }
 
 #fullname {
@@ -78,14 +85,65 @@ h2 {
 #housemail {
   display: flex;
   flex-flow: row nowrap;
+  margin-bottom: 20px;
 }
 
 #family {
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: column nowrap;
+  margin-bottom: 20px;
+  align-self: start;
+  width: 30%;
+}
+
+#label-family{
+  margin-bottom: 20px;
 }
 
 #content {
   display: flex;
   flex-flow: column wrap;
+  margin-bottom: 20px;
+  width: 50%;
+}
+
+#label-content{
+  margin-bottom: 10px;
+}
+
+#rate {
+  margin-bottom: 20px;
+  width: 50%;
+}
+
+#comment{
+  margin-bottom: 20px;
+}
+
+#inline{
+  display: flex;
+  flex-direction: row;
+}
+
+#label-rate{
+  margin-bottom: 10px;
+}
+
+#input-name{
+    width: 50%;
+    height: 30px;
+}
+
+#input-lastname{
+  width: 42%;
+  height: 30px;
+}
+
+#input-email{
+  width: 60%;
+  height: 30px;
+}
+
+#house{
+  width: 200px;
 }
